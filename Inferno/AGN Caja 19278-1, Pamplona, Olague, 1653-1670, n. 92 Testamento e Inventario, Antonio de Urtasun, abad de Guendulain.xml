@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +32,7 @@
                     </msIdentifier>
                     <msContents>
                         
-                        <summary></summary>
+                        <summary/>
                         <!-- summary from ADP or AGN catalog -->
                         <textLang xml:lang="spa"/>
                     </msContents>
@@ -44,7 +43,177 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151735348",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T18:17:35.348Z",
+	"dcterms:modified": "2024-10-07T18:17:35.348Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/aewingate",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alexandra Wingate"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151735348#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151735348#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/listBibl/bibl/pubPlace/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://vocab.getty.edu/tgn/8728756",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151805441",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T18:18:05.441Z",
+	"dcterms:modified": "2024-10-07T18:18:05.441Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/aewingate",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alexandra Wingate"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151805441#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/aewingate/LWC_TEI2024/main/Inferno/AGN%20Caja%2019278-1%2C%20Pamplona%2C%20Olague%2C%201653-1670%2C%20n.%2092%20Testamento%20e%20Inventario%2C%20Antonio%20de%20Urtasun%2C%20abad%20de%20Guendulain.xml?place_annotation_20241007151805441#Selector",
+			"@type": "oa:RangeSelector",
+			"oa:hasStartSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/listBibl/bibl[2]/pubPlace"
+			},
+			"oa:hasEndSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/div/listBibl/bibl[2]"
+			},
+			"oa:refinedBy": {
+				"@type": "oa:TextPositionSelector",
+				"oa:start": 9,
+				"oa:end": 39
+			}
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://vocab.getty.edu/tgn/8728756",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
             <!-- SCANS, 1r-6v -->
@@ -56,7 +225,7 @@
                 <head>Memorial de los libros que tiene el abbad de guendulayn Don <choice><abbr>Ant.</abbr><expan>Antonio</expan></choice> <lb/>
                     de Hurtasun corregidos por el expurgatorio del año mil y seiscientos y <lb/>
                     quarenta</head>
-                <listBibl><bibl><title>Quatuor pares <persName type="author">diui thomæ</persName></title> <pubPlace>impressæ Lugduni</pubPlace> <publisher>apud Stephanum Michaelem</publisher> <date type="publication" when="1588">anno 1588</date></bibl>
+                <listBibl><bibl><title>Quatuor pares <persName type="author">diui thomæ</persName></title> <pubPlace>impressæ <placeName key="Lyon" ref="http://vocab.getty.edu/tgn/8728756">Lugduni</placeName></pubPlace> <publisher>apud Stephanum Michaelem</publisher> <date type="publication" when="1588">anno 1588</date></bibl>
                 <bibl><title>Omnia opuscula <persName type="author">Caietani</persName></title> <pubPlace>impressa lugduni</pubPlace> <publisher>apud stephanum Michaelem</publisher> <date type="publication" when="1588">anno 1588</date></bibl>
                     <bibl><title>Opera <persName type="author">Gabrielis Vazquez <choice><abbr>societ<hi rend="super">is</hi></abbr><expan>societatis</expan></choice> Iesu</persName> cum opusculis</title> <pubPlace>impressa lugduni</pubPlace> <publisher>apud Joan. Pilehote</publisher> <date type="publication" when="1620">anno 1620</date></bibl>
                     <bibl><author>Leonardus Iessius</author> <title>de iustitia et iure</title> <pubPlace>impres. parisijs</pubPlace> <publisher>apud Rolinum Teodoricum via Ja-coben sub sole aureo</publisher> <date type="publication" when="1618">anno 1618</date></bibl>
